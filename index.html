@@ -1,1 +1,181 @@
-hello world
+<!--
+Author: eds
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Misal a Onepage Portfolio Flat Bootstrap Responsive Website Template| Home :: w3layouts</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Misal Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link
+		href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400'
+		rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			$("#slider").responsiveSlides({
+				auto: true,
+				speed: 500,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+	</script>
+	<script>
+		$(function () {
+			$("#slider1").responsiveSlides({
+				auto: true,
+				speed: 500,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+	</script>
+	<script>
+		$(function () {
+			$("#slider2").responsiveSlides({
+				auto: true,
+				speed: 500,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+	</script>
+	<script>
+		$(function () {
+			$("#slider3").responsiveSlides({
+				auto: true,
+				speed: 500,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+	</script>
+	<!--start-smoth-scrolling-->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 900);
+			});
+		});
+	</script>
+	<!--start-smoth-scrolling-->
+</head>
+
+<body>
+	<!--header-->
+	<div id="home" class="banner">
+		<div class="top-menu">
+			<span class="menu"> </span>
+			<nav class="cl-effect-1" id="cl-effect-1">
+				<ul>
+					<li><a class="scroll" href="#banner-top">HOME</a></li>
+					<li><a class="scroll" href="#about">ABOUT</a></li>
+					<li><a class="scroll" href="#contact">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!-- script-for-menu -->
+		<script>
+			$("span.menu").click(function () {
+				$(".top-menu ul").slideToggle("slow", function () { });
+			});
+		</script>
+		<!-- script-for-menu -->
+		<div id="banner-top" class="banner-top">
+			<h1>EVERYDAY</h1>
+			<h2>Clothing PH</h2>
+		</div>
+	</div>
+	<!--/header-->
+	<!--about-->
+	<div id="about" class="about">
+		<div class="container">
+			<div class="about-info">
+				<h3>ABOUT</h3>
+				<h4>We are an online shop</h4>
+				<p>Everyday Clothing PH only started as a hobby. The shop was registered on
+					February 2020 due to the demand of the online buyers. It caters to all individual from different
+					walks of life. It offers fresh from the dress maker clothes to preloved clothes, adults and kids
+					wear.
+				</p>
+				<h4>Our Goals</h4>
+				<p>The company envisioned to be the number one preferred brand for everyday clothing of an
+					individual and its mission is to provide the clothing essentials of an individual for everyday
+					use.</p>
+			</div>
+		</div>
+	</div>
+	<!--/about-->
+	<!--contact-->
+	<div id="contact" class="contact">
+		<div class="container">
+			<div class="contact-info">
+				<h3>CONTACT</h3>
+				<p>
+				<div class="contact-details">
+					<h4>Email:</h4>
+					<a href="mailto:ecphclothingshop@gmail.com">ecphclothingshop@gmail.com</a>
+					<h4></h4>
+					<h4>Follow Us</h4>
+					<a style="color:DodgerBlue" href="https://www.facebook.com/Everyday-Clothing-PH-111541063776632/">
+						facebook.com/EverydayClothingPH
+					</a>
+				</div>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!--/contact-->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<a href="#"><img src="images/logo.png" alt="" /></a>
+			<br><br>
+			<p>Copyrights &copy; 2020 All rights reserved</p>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+
+				$().UItoTop({
+					easingType: 'easeOutQuart'
+				});
+
+			});
+		</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;">
+			</span></a>
+	</div>
+	<!--/footer-->
+</body>
+
+</html>
